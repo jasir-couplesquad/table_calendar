@@ -63,20 +63,20 @@ class CalendarHeader extends StatelessWidget {
                   ),
                 ),
           ),
-          if (headerStyle.formatButtonVisible &&
-              availableCalendarFormats.length > 1)
-            Padding(
-              padding: const EdgeInsets.only(left: 8.0),
-              child: FormatButton(
-                onTap: onFormatButtonTap,
-                availableCalendarFormats: availableCalendarFormats,
-                calendarFormat: calendarFormat,
-                decoration: headerStyle.formatButtonDecoration,
-                padding: headerStyle.formatButtonPadding,
-                textStyle: headerStyle.formatButtonTextStyle,
-                showsNextFormat: headerStyle.formatButtonShowsNext,
-              ),
-            ),
+          // if (headerStyle.formatButtonVisible &&
+          //     availableCalendarFormats.length > 1)
+          //   Padding(
+          //     padding: const EdgeInsets.only(left: 8.0),
+          //     child: FormatButton(
+          //       onTap: onFormatButtonTap,
+          //       availableCalendarFormats: availableCalendarFormats,
+          //       calendarFormat: calendarFormat,
+          //       decoration: headerStyle.formatButtonDecoration,
+          //       padding: headerStyle.formatButtonPadding,
+          //       textStyle: headerStyle.formatButtonTextStyle,
+          //       showsNextFormat: headerStyle.formatButtonShowsNext,
+          //     ),
+          //   ),
               if (headerStyle.leftChevronVisible)
             CustomIconButton(
               icon: headerStyle.leftChevronIcon,
